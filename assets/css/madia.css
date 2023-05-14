@@ -30,3 +30,88 @@
         display: none;
     }
 }
+
+@media only screen and (min-width:0px) and (max-width: 320px) {
+    /* ====================card circle=============== */
+    .card-circle {
+        width: 130.02px;
+        height: 130px;
+        left: 169px;
+        top: 846px;
+        box-shadow: var(--card-shedow);
+        border-radius: 400px;
+        margin: 0px auto 64px auto;
+    }
+    
+    .sing-up {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150.5%;
+        text-align: center;
+        text-shadow: var(--shedow);
+        padding-top: 20px;
+    }
+    
+    .click-here {
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 14.5%;
+        color: #9F0D0D;
+        text-shadow: 0px 4px 4px var(--shedow);
+    }
+    
+    .step {
+        width: 55.28px;
+        height: 24.96px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        padding-top: 4px;
+        font-weight: 500;
+        font-size: 10px;
+        /* line-height: 187.5%; */
+    }
+}
+
+
+@media only screen and (min-width:321px) and (max-width: 425px) {
+    /* ====================card circle=============== */
+    .card-circle {
+        width: 170.02px;
+        height: 170px;
+        left: 169px;
+        top: 846px;
+        box-shadow: var(--card-shedow);
+        border-radius: 400px;
+        margin: 0px auto 64px auto;
+    }
+    
+    .sing-up {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 180.5%;
+        text-align: center;
+        text-shadow: var(--shedow);
+        padding-top: 20px;
+    }
+    
+    .click-here {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 35.5%;
+        color: #9F0D0D;
+        text-shadow: 0px 4px 4px var(--shedow);
+    }
+    
+    .step {
+        width: 75.28px;
+        height: 30.96px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        padding-top: 5px;
+        font-weight: 500;
+        font-size: 10px;
+        /* line-height: 187.5%; */
+    }
+}
