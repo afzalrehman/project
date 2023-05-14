@@ -1,0 +1,32 @@
+@media only screen and (min-width:0px) and (max-width: 992px) {
+
+    /* =====================THF ADMISSION PROCEDURE=================
+    ============================================================  */
+    .admission-box-h2 {
+        font-weight: 700;
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .admission-box-h2::after {
+        content: '';
+        display: block;
+        width: 90px ;
+        height: 6px;
+        background-color: green;
+        margin-left: auto;
+        margin-right: auto;
+        /* position: absolute; */
+
+    }
+
+    .admission-box {
+        padding-left: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .green-line {
+        display: none;
+    }
+}
